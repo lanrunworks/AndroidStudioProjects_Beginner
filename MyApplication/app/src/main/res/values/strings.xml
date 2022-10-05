@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Hello Android</string>
+    <string name="message">オブジェクト指向プログラミング</string>
+    <string name="message2">ようこそAndroidの世界へ！</string>
+</resources>

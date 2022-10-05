@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="right|center_vertical"
+        android:text="氏名"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewBlood"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewBlood"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="right|center_vertical"
+        android:text="血液型"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:gravity="right|center_vertical"
+        android:text="星座"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/spinner2"
+        app:layout_constraintEnd_toEndOf="@+id/textViewBlood" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="242dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="30dp"
+        android:ems="10"
+        android:gravity="center_vertical"
+        android:inputType="text"
+        android:text="茨城　太郎"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView"
+        app:layout_constraintStart_toEndOf="@+id/textView" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="242dp"
+        android:layout_height="48dp"
+        android:entries="@array/bloods"
+        android:gravity="center_vertical"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textViewBlood"
+        app:layout_constraintStart_toStartOf="@+id/editText" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="242dp"
+        android:layout_height="48dp"
+        android:entries="@array/stars"
+        android:gravity="center_vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/textView3"
+        app:layout_constraintStart_toStartOf="@+id/spinner" />
+
+    <Button
+        android:id="@+id/buttonStar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="星座"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonBlood"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.43" />
+
+    <Button
+        android:id="@+id/buttonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:text="おみくじ"
+        app:layout_constraintBaseline_toBaselineOf="@+id/buttonBlood"
+        app:layout_constraintEnd_toStartOf="@+id/buttonBlood"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonBlood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="血液型"
+        app:layout_constraintBaseline_toBaselineOf="@+id/buttonStar"
+        app:layout_constraintEnd_toStartOf="@+id/buttonStar"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonName" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">tetSpinner</string>
+    <string-array name="prefectures">
+        <item>埼玉県</item>
+        <item>茨城県</item>
+        <item>ハノイ都</item>
+    </string-array>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MediaPlayer2</string>
+    <string-array name="musics">
+        <item>Song 1</item>
+        <item>Song 2</item>
+        <item>Song 3</item>
+        <item>Song 4</item>
+        <item>Song 5</item>
+        <item>Intro</item>
+    </string-array>
+</resources>

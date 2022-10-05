@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Car</string>
+    <string-array name="shops">
+        <item>東京</item>
+        <item>名古屋</item>
+        <item>大阪</item>
+    </string-array>
+    <string-array name="cars">
+        <item>クラウス</item>
+        <item>プリウス</item>
+    </string-array>
+</resources>

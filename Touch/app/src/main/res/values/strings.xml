@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Touch</string>
+    <string name="x">X座標</string>
+    <string name="y">Y座標</string>
+</resources>

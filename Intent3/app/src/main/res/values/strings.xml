@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Intent3</string>
+    <string-array name="bloods">
+        <item>A型</item>
+        <item>B型</item>
+        <item>AB型</item>
+        <item>O型</item>
+    </string-array>
+    <string-array name="stars">
+        <item>おひつじ座 3/21〜4/20</item>
+        <item>おうし座 4/21〜5/21</item>
+        <item>ふたご座 5/22〜6/22</item>
+        <item>かに座 6/23〜7/23</item>
+        <item>しし座 7/24〜8/23</item>
+        <item>おとめ座 8/24〜9/23</item>
+        <item>てんびん座 9/24〜10/23</item>
+        <item>さそり座 10/24〜11/22</item>
+        <item>いて座 11/23〜12/21</item>
+        <item>やぎ座 12/22〜1/20</item>
+        <item>みずがめ座 1/21〜2/19</item>
+        <item>うお座 2/20〜3/20</item>
+    </string-array>
+    <string name="fortune">【おみくじ占い】</string>
+    <string name="fortune2">【血液型占い】</string>
+    <string name="fortune3">【星座占い】</string>
+    <string name="back">メイン画面へ戻る</string>
+</resources>

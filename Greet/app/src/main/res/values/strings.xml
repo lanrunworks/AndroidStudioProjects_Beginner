@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Greet</string>
+    <string name="greetingmorning">おはよう</string>
+    <string name="greetingnoon">こんにちは</string>
+    <string name="greetingevening">こんばんは</string>
+</resources>
